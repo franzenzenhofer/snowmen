@@ -1,0 +1,26 @@
+<head>
+  <title>snowmen</title>
+</head>
+
+<body>
+  {{> main}}
+  {{> grass}}
+</body>
+
+<template name="main">
+  <div id="arena">
+  {{#each snowmen}}
+    <div class="snowman" data-x="{{x}}" data-y="{{y}}"
+    style="position:absolute; top:{{y}}px;left:{{x}}px; color:{{color}}">☃</div>
+  {{/each}}
+  </div>
+</template>
+
+<template name="grass">
+  <div id="greengrass">
+  {{#each flowers}}
+    <div class="flower" data-x="{{x}}" data-y="{{y}}"
+    style="position:absolute; top:{{y}}px;left:{{x}}px; color:{{color}}">✿</div>
+  {{/each}}
+  </div>
+</template>

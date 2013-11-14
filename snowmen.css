@@ -1,0 +1,6 @@
+/* CSS declarations go here */
+body {padding: 0; maring:0; overflow:hidden; background-color: #F2F2F2;}
+#arena {  font-weight: 900; color:black; font-family:monospace;}
+.snowman {border: 0px solid blue; margin: 0 0 0 0; padding:0 0 0 0; width:16px; height:18px; line-height: 20px; line-width:20px;overflow:visible; font-size: 20px; 
+
+}
